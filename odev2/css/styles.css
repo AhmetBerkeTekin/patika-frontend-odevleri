@@ -1,0 +1,20 @@
+header {
+    color: red;
+    font-size: 1.875em;
+}
+#about {
+    color: rgb(48, 46, 46);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.article-start {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    color: blueviolet;
+    background-color: bisque;
+}
+article {
+    background-color: aquamarine;
+    font-size: 2em;
+    color: rgb(147, 138, 12);
+}
