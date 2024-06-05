@@ -1,0 +1,145 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.container-google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: end;
+}
+a{
+    color: rgba(0, 0, 0, .87);
+    text-decoration: none;
+}
+.img-center{
+    display: flex;
+    justify-content: center;
+}
+.input-enter{
+    display: flex;
+    flex: 1;
+    padding: 0 8px 0 0;
+}
+.input-area{
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+    flex: 100%;
+    font-family: arial, sans-serif;
+    line-height: 22px;
+    border-bottom: 8px solid transparent;
+    padding-top: 11px;
+    overflow-x: hidden;
+    max-height: 27px;
+}
+.search-area{
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    padding-top: 6px;
+    position: relative;
+}
+.search{
+    display: flex;
+    z-index: 3;
+    background: #fff;
+    position: relative;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    min-height: 44px;
+    max-width: 584px;
+    min-width: 450px;
+}
+.search-bar{
+    background-color: white;
+    width: 300px;
+    height: 20px;
+}
+.search-img{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    padding-left: 14px;
+    height: 46px;
+    min-width: 24px;
+}
+.search-img span{
+    display: flex;
+    align-items: center; /* Bu ekleme ile SVG'yi span içinde ortalayacağız */
+}
+.buttons{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.button{
+    height: 20px;
+    border-radius: 10px;
+    border-color: black;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    padding: 20px 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-left{
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+    
+}
+.footer-right{
+    display: flex;
+    gap: 10px;
+    margin-right: 15px;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.content{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+.content-box{
+    background-color: aquamarine;
+    flex-grow: 5;
+    text-align: center;
+}
+#box2{
+    flex-grow: 2;
+}
+#e-mail{
+    background-color: white;
+    width: 220px;
+    margin: 0 auto;
+}
